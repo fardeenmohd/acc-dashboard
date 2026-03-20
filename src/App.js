@@ -31,7 +31,10 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   // Replace with your actual Hetzner IP
-  const API_URL = 'https://178.104.52.229:8080/api';
+  const API_URL = 'https://sino.noho.st/acc-api';
+
+  console.log("API_URL:", API_URL);
+  
 
   useEffect(() => {
     Promise.all([
